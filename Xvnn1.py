@@ -3,15 +3,7 @@
 import random
 import socket
 import threading
-import socket
-import argparse
-import sys
-from time import time as tt
 import os
-import re
-import urllib.request
-import requests
-import os,sys
 
 os.system("clear")
 print("\033[93m")
